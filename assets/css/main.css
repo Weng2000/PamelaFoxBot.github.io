@@ -11,21 +11,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0px;
 }
 
-#banner {
-	-webkit-transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -ms-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-    background-image: linear-gradient(to top, rgba(46, 49, 65, 0), rgba(46, 49, 65, 1)),url(../imagexs/.jpg);
-    background-size: auto, cover;
-    background-attachment: fixed;
-    background-position: center, center;
-    background-repeat: no-repeat;
-	padding: 10em 0 4.75em 0 ;
-	height: 80vh;
-	color: #ffffff;
-}
 
 #banner a {
 	color: #ffffff;
