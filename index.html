@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <title>Personal Website</title>
+
+
+  </head>
+  <body onload="typeWriter()">
+    <nav>
+      <div class="nav_Container">
+      <a href="#one" class="active">Home</a>
+      <a href="#two">Skills</a>
+      <a href="#">Products</a>
+    </div>
+    </nav>
+<script>
+      var x=0;
+      var txt ='Hi, I am Choong Kien Weng';
+      var speed = 50;
+
+     function typeWriter(){
+        if (x < txt.length){
+       document.getElementById("Name_typing").innerHTML += txt.charAt(x);
+        x++;
+        setTimeout(typeWriter, speed);
+      }
+    }
+
+
+</script>
+
+<section class="one">
+
+<div class= autoType>
+  <p id="Name_typing"></p>
+</div>
+
+</section>
+
+<section class="two">
+  <h2>Skills</h2>
+  <p>HTML</p>
+  <div class="skill_con">
+  <div class="skill html">40%</div>
+  </div>
+
+  <p>php</p>
+  <div class="skill_con">
+  <div class="skill php">30%</div>
+  </div>
+
+
+  <h2>Software Skills</h2>
+  <p>Adobe Photoshop</p>
+  <div class="skill_con">
+  <div class="skill phtoshop">40%</div>
+  </div>
+
+  <p>Adobe Illustrator</p>
+  <div class="skill_con">
+  <div class="skill phtoshop">40%</div>
+  </div>
+
+  <p>Adobe After Effect</p>
+  <div class="skill_con">
+  <div class="skill phtoshop">40%</div>
+  </div>
+
+</section>
+
+<section class="three">
+  <h2>Products</h2>
+  <h3>Bitmap</h3>
+  <h3>Vector</h3>
+  <h3>3D Model</h3>
+
+  <h3>Video</h3>
+  <h3>Game</h3>
+  <video controls>
+    <source src="FYP.mp4" type="video/mp4">
+    <source src="FYP.ogg" type="video/ogg">
+  </video>
+  <h3>Websites</h3>
+</section>
+
+<footer>
+<h2>Contact Me</h2>
+</footer>
+
+  </body>
+</html>
